@@ -1,11 +1,11 @@
   applications:
-  - name: CarService
+  - name: CarService_ArnabKumarSingh
     routes:
-      - route: us-south.cf.appdomain.cloud
+      - route: "arnabkumarsingh.mybluemix.net"
     memory: 128M
     buildpack: python_buildpack
-  - name: CarService-nginx
+  - name: CarService_ArnabKumarSingh-nginx
     routes:
-      - route: us-south.cf.appdomain.cloud/static
+      - route: "arnabkumarsingh.mybluemix.net/static"
     memory: 128M
     buildpack: staticfile_buildpack
